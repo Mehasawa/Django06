@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <h2>Главная страница</h2>
+    <a href="{% url 'sv1' %}">Фирма-продукт</a>
+    <a href="{% url 'sv2' %}">Студент-курс</a>
+    <a href="{% url 'sv3' %}">Юзер-Аккаунт</a>
+    <a href="{% url 'add' %}"><button>ADD</button></a>
+</body>
+</html>
